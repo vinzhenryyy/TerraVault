@@ -48,3 +48,12 @@ Here’s a high-level view of the files in the repository:
    ```bash
    git clone https://github.com/vinzhenryyy/TerraVault.git
    cd TerraVault
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Setup environment variables / configuration (e.g. database URL, secret keys)
+4. Initialize / migrate your database schema
+5. Start the application:
+   ```bash
+   python api_gateway.py
+6. Access APIs via http://localhost:PORT/ (adjust the port and host as configured)
